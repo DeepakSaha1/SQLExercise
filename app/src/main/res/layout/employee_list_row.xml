@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/dot"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dot_height"
+        android:layout_marginRight="@dimen/dot_margin_right"
+        android:layout_marginTop="@dimen/dimen_10"
+        android:includeFontPadding="false"
+        android:textColor="@color/colorAccent"
+        android:lineSpacingExtra="0dp"
+        android:textSize="@dimen/dot_text_size" />
+
+    <TextView
+        android:id="@+id/tv_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/dot"
+        android:textColor="@color/timestamp"
+        android:textSize="@dimen/timestamp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:layout_below="@id/tv_timestamp"
+        android:layout_toRightOf="@id/dot"
+        android:text="Name: "
+        android:textColor="@color/note_list_text"
+        android:textSize="@dimen/note_list_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_address"
+        android:text="Address: "
+        android:layout_toRightOf="@id/dot"
+        android:layout_below="@id/tv_name"
+        android:textColor="@color/note_list_text"
+        android:textSize="@dimen/note_list_text" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_contact"
+        android:layout_below="@id/tv_address"
+        android:layout_toRightOf="@id/dot"
+        android:text="Contact: "
+        android:textColor="@color/note_list_text"
+        android:textSize="@dimen/note_list_text" />
+
+    <TextView
+        android:id="@+id/tv_emp_list_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_timestamp"
+        android:layout_toRightOf="@id/tv_address"
+        android:textColor="@color/note_list_text"
+        android:textSize="@dimen/note_list_text" />
+
+    <TextView
+        android:id="@+id/tv_emp_list_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_emp_list_name"
+        android:layout_toRightOf="@id/tv_address"
+        android:textColor="@color/note_list_text"
+        android:textSize="@dimen/note_list_text" />
+
+    <TextView
+        android:id="@+id/tv_emp_list_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_emp_list_address"
+        android:layout_toRightOf="@id/tv_address"
+        android:inputType="number"
+        android:textColor="@color/note_list_text"
+        android:textSize="@dimen/note_list_text" />
+
+</RelativeLayout>

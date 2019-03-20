@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_title_home">Notes</string>
+    <string name="msg_no_notes">No notes found!</string>
+    <string name="lbl_new_employee_title">Add Employee Details</string>
+    <string name="lbl_edit_employee_title">Edit Employee Details</string>
+    <string name="lbl_new_employee_name">New Employee Name</string>
+    <string name="lbl_new_employee_address">New Employee Address</string>
+    <string name="lbl_new_employee_contact">New Employee Contact</string>
+    <string name="lbl_edit_employee_name">Edit Employee Name</string>
+    <string name="lbl_edit_employee_address">Edit Employee Address</string>
+    <string name="lbl_edit_employee_contact">Edit Employee Contact</string>
+    <string name="hint_enter_employee_name">Enter Employee Name!</string>
+    <string name="hint_enter_employee_address">Enter Employee Address!</string>
+    <string name="hint_enter_employee_contact">Enter Employee Contact!</string>
+</resources>
